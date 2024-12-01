@@ -1,0 +1,46 @@
+﻿@page "/destination-add"
+@using TravelAgency.Repositories
+@inject DestinationRepository DestinationRepo
+@inject NavigationManager GoTo
+
+@rendermode InteractiveServer
+
+<h3>Add Destination</h3>
+
+<div>
+    <form>
+        <div>
+            <label>Name:</label>
+            <input type="text" @bind="NewDestination.Name" />
+        </div>
+        <div>
+            <label>Description:</label>
+            <input type="text" @bind="NewDestination.Description" />
+        </div>
+        <div>
+            <label>Price:</label>
+            <input type="number" @bind="NewDestination.Price" />
+        </div>
+        <br />
+        <button type="button" @onclick="SubmitNewDestination">Save</button>
+        <button type="button" @onclick="Cancel">Cancel</button>
+    </form>
+</div>
+
+@code
+{
+    private TravelAgency.Models.Destination NewDestination = new();
+
+    private async Task SubmitNewDestination()
+    {
+        await DestinationRepo.AddDestinationAsync(NewDestination);
+
+        GoTo.NavigateTo("/destinations");
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/destinations");
+    }
+
+}

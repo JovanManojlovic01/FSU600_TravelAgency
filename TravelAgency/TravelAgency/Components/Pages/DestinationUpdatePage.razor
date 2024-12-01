@@ -1,0 +1,61 @@
+﻿@page "/destination-update/{id:int}"
+@using TravelAgency.Repositories
+@inject DestinationRepository DestinationRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>Update Destination</h3>
+
+@if (DestinationToUpdate == null)
+{
+    <p>Loading destination details...</p>
+}
+else
+{
+    <div>
+        <form>
+            <div>
+                <label>Name:</label>
+                <input type="text" @bind="DestinationToUpdate.Name" />
+            </div>
+            <div>
+                <label>Description:</label>
+                <input type="text" @bind="DestinationToUpdate.Description" />
+            </div>
+            <div>
+                <label>Price:</label>
+                <input type="number" @bind="DestinationToUpdate.Price" />
+            </div>
+            <br />
+            <button type="button" @onclick="SubmitUpdatedDestination">Save</button>
+            <button type="button" @onclick="Cancel">Cancel</button>
+        </form>
+    </div>
+}
+
+@code 
+{
+    [Parameter]
+    public int Id { get; set; }
+
+    private TravelAgency.Models.Destination? DestinationToUpdate;
+
+    protected override async Task OnInitializedAsync()
+    {
+        DestinationToUpdate = await DestinationRepo.GetDestinationByIdAsync(Id);
+    }
+
+    private async Task SubmitUpdatedDestination()
+    {
+        if(DestinationToUpdate != null)
+        {
+            await DestinationRepo.UpdateDestinationAsync(DestinationToUpdate);
+            GoTo.NavigateTo("/destinations");
+        }
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/destinations");
+    }
+}

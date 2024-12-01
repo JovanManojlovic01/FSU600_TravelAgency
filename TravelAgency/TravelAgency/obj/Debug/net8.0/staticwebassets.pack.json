@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TravelAgency.y5oxpvfzep.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelAgency.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelAgency.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TravelAgency.props",
+      "PackagePath": "build\\TravelAgency.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TravelAgency.props",
+      "PackagePath": "buildMultiTargeting\\TravelAgency.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TravelAgency.props",
+      "PackagePath": "buildTransitive\\TravelAgency.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

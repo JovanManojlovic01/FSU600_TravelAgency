@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\pages\\destinationupdatepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\pages\\destinationupdatepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\pages\\destinationpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\pages\\destinationpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\pages\\destinationdeletepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\pages\\destinationdeletepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\pages\\destinationaddpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\pages\\destinationaddpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\travelagency.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\travelagency.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|c:\\users\\jovan\\onedrive\\desktop\\fsu600\\lab2\\travelagency\\travelagency\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF1535A-C2F2-49E4-8D9E-C335D0D41484}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestinationUpdatePage.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationUpdatePage.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Pages\\DestinationUpdatePage.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationUpdatePage.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Pages\\DestinationUpdatePage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:44:01.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestinationDeletePage.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationDeletePage.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Pages\\DestinationDeletePage.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationDeletePage.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Pages\\DestinationDeletePage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:24:22.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DestinationPage.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationPage.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Pages\\DestinationPage.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationPage.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Pages\\DestinationPage.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:09:33.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TravelAgency.csproj",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
+              "RelativeDocumentMoniker": "TravelAgency\\TravelAgency.csproj",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
+              "RelativeToolTip": "TravelAgency\\TravelAgency.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T12:14:27.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestinationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\DestinationRepository.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Repositories\\DestinationRepository.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\DestinationRepository.cs",
+              "RelativeToolTip": "TravelAgency\\Repositories\\DestinationRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:44:25.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Booking.cs",
+              "RelativeToolTip": "TravelAgency\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:10:19.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestinationAddPage.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationAddPage.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Pages\\DestinationAddPage.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\DestinationAddPage.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Pages\\DestinationAddPage.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T11:04:41.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Destination.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Models\\Destination.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Destination.cs",
+              "RelativeToolTip": "TravelAgency\\Models\\Destination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:04:08.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\AppDbContext.cs",
+              "RelativeToolTip": "TravelAgency\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:14:40.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Program.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Program.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Program.cs",
+              "RelativeToolTip": "TravelAgency\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:49:08.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Models\\Customer.cs",
+              "RelativeToolTip": "TravelAgency\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:06:51.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:08:53.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "TravelAgency\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:53:19.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "TravelAgency\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:03:49.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TravelAgency\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600\\Lab2\\TravelAgency\\TravelAgency\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TravelAgency\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:55:20.323Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿@page "/destination-delete/{id:int}"
+@using TravelAgency.Repositories
+@inject DestinationRepository DestinationRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>Delete Destination</h3>
+
+@if(DestinationToDelete == null)
+{
+    <p>Loading destination details...</p>
+}
+else
+{
+    <div>
+        <p>Are you sure you want to delete the destination:</p>
+        <p><strong>@DestinationToDelete.Name</strong>?</p>
+        <p>@DestinationToDelete.Description</p>
+        <p>Price: @DestinationToDelete.Price</p>
+        <button @onclick="ConfirmDelete">Delete</button>
+        <button @onclick="Cancel">Cancel</button>
+    </div>
+}
+
+@code 
+{
+    [Parameter]
+    public int Id { get; set; }
+    private TravelAgency.Models.Destination? DestinationToDelete;
+
+    protected override async Task OnInitializedAsync()
+    {
+        DestinationToDelete = await DestinationRepo.GetDestinationByIdAsync(Id);
+    }
+
+    private async Task ConfirmDelete()
+    {
+        if(DestinationToDelete != null)
+        {
+            await DestinationRepo.DeleteDestinationAsync(DestinationToDelete.Id);
+            GoTo.NavigateTo("/destinations");
+        }
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/destinations");
+    }
+}
