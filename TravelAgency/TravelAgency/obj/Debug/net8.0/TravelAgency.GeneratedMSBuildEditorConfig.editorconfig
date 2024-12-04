@@ -17,73 +17,89 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TravelAgency
 build_property.RootNamespace = TravelAgency
-build_property.ProjectDir = C:\Users\jovan\OneDrive\Desktop\FSU600\Lab2\TravelAgency\TravelAgency\
+build_property.ProjectDir = C:\Users\jovan\OneDrive\Desktop\FSU600_TravelAgency-main\TravelAgency\TravelAgency\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jovan\OneDrive\Desktop\FSU600\Lab2\TravelAgency\TravelAgency
+build_property.MSBuildProjectDirectory = C:\Users\jovan\OneDrive\Desktop\FSU600_TravelAgency-main\TravelAgency\TravelAgency
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/App.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/Counter.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/BookingsAddPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29raW5nc0FkZFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/BookingsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCb29raW5nc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/DestinationAddPage.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/CustomerAddPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lckFkZFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/CustomerDeletePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lckRlbGV0ZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/CustomerPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lclBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/CustomerUpdatePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lclVwZGF0ZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/DestinationAddPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXN0aW5hdGlvbkFkZFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/DestinationDeletePage.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/DestinationDeletePage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXN0aW5hdGlvbkRlbGV0ZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/DestinationPage.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/DestinationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXN0aW5hdGlvblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/DestinationUpdatePage.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/DestinationUpdatePage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEZXN0aW5hdGlvblVwZGF0ZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/Error.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/Home.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Pages/Weather.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Routes.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/_Imports.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Pages/Destination/DestinationAddPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzdGluYXRpb25cRGVzdGluYXRpb25BZGRQYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Pages/Destination/DestinationPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVzdGluYXRpb25cRGVzdGluYXRpb25QYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Layout/MainLayout.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ekirxxrfo2
 
-[C:/Users/jovan/OneDrive/Desktop/FSU600/Lab2/TravelAgency/TravelAgency/Components/Layout/NavMenu.razor]
+[C:/Users/jovan/OneDrive/Desktop/FSU600_TravelAgency-main/TravelAgency/TravelAgency/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-97gg359aby

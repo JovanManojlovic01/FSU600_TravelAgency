@@ -1,0 +1,61 @@
+﻿@page "/bookings"
+@using TravelAgency.Repositories
+@inject BookingRepository BookingRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>BookingsPage</h3>
+
+<button class="btn btn-success" @onclick="NavigateToAdd">Add New Booking</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Customer Name</th>
+            <th>Destination</th>
+            <th>Booking Time</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Bookings)
+        {
+            <tr>
+                <td>@booking.ID</td>
+                <td>@booking.Customer.Name</td>
+                <td>@booking.Destination.Name</td>
+                <td>@booking.bookingTime.ToString("g")</td>
+                <td>
+                    <button class="btn btn-warning" @onclick="() => NavigateToUpdate(booking.ID)">Update</button>
+                    <button class="btn btn-danger" @onclick="() => NavigateToDelete(booking.ID)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code 
+{
+    private List<TravelAgency.Models.Booking> Bookings = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Bookings = await BookingRepo.GetBookingsAsync();
+    }
+
+    private void NavigateToAdd()
+    {
+        GoTo.NavigateTo("/bookings-add");
+    }
+
+    private void NavigateToUpdate(int id)
+    {
+        GoTo.NavigateTo($"/bookings-update/{id}");
+    }
+
+    private void NavigateToDelete(int id)
+    {
+        GoTo.NavigateTo($"/bookings-delete/{id}");
+    }
+}

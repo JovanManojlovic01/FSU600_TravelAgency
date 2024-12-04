@@ -1,0 +1,50 @@
+﻿@page "/customers-delete/{id:int}"
+@using TravelAgency.Repositories
+@inject CustomerRepository CustomerRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>Delete Customer</h3>
+
+@if (CustomerToDelete == null)
+{
+    <p>Loading destination details...</p>
+}
+else
+{
+    <div>
+        <p>Are you sure you want to delete the customer from the database:</p>
+        <p><strong>@CustomerToDelete.Name</strong>?</p>
+        <p>@CustomerToDelete.Email</p>
+        <p>@CustomerToDelete.PhoneNumber</p>
+        <button @onclick="ConfirmDelete">Delete</button>
+        <button @onclick="Cancel">Cancel</button>
+    </div>
+}
+
+@code 
+{
+    [Parameter]
+    public int Id { get; set; }
+    private TravelAgency.Models.Customer? CustomerToDelete;
+
+    protected override async Task OnInitializedAsync()
+    {
+        CustomerToDelete = await CustomerRepo.GetCustomerByIdAsync(Id);
+    }
+
+    private async Task ConfirmDelete()
+    {
+        if (CustomerToDelete != null)
+        {
+            await CustomerRepo.DeleteCustomerAsync(CustomerToDelete.Id);
+            GoTo.NavigateTo("/customers");
+        }
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/customers");
+    }
+
+}

@@ -14,7 +14,7 @@ namespace TravelAgency
 
         }
 
-        public void onModelCreation(ModelBuilder modelBuilder) // Fluent API, make sure that Bookings table is a "junction" table between the customer and destination
+        protected override void OnModelCreating(ModelBuilder modelBuilder) // Fluent API, make sure that Bookings table is a "junction" table between the customer and destination
         {
             modelBuilder.Entity<Booking>()
                 .HasOne(b => b.Customer)

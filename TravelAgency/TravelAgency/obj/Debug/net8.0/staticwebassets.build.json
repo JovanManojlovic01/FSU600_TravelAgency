@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LtA8Ym8/Ia23VY+5JqKfuVf4RFnBpI0CzwZpf+luKKM=",
+  "Hash": "ENZwXH87hJKE1sEhMdeagen08UjwroDSpv9C/iKBJH8=",
   "Source": "TravelAgency",
   "BasePath": "_content/TravelAgency",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TravelAgency\\wwwroot",
       "Source": "TravelAgency",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\",
       "BasePath": "_content/TravelAgency",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
       "SourceId": "TravelAgency",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "TravelAgency#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "asK2k8Mq5i/599Q3cP0xuACtec5ALiihrjyQolVtSEY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
       "SourceId": "TravelAgency",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "TravelAgency#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "asK2k8Mq5i/599Q3cP0xuACtec5ALiihrjyQolVtSEY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
       "SourceId": "TravelAgency",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "da95v2qkru",
-      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "Fingerprint": "v5b7vqvy3h",
+      "Integrity": "Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "TravelAgency",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6gzpyzhau4",
-      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TravelAgency",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
       "SourceId": "TravelAgency",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\",
       "BasePath": "_content/TravelAgency",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -155,7 +155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "2540"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +163,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,13 +177,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
         }
       ]
     },
     {
-      "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
+      "Route": "app.v5b7vqvy3h.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -192,7 +192,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "2540"
         },
         {
           "Name": "Content-Type",
@@ -200,11 +200,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -214,7 +214,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "da95v2qkru"
+          "Value": "v5b7vqvy3h"
         },
         {
           "Name": "label",
@@ -222,13 +222,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
         }
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -237,7 +237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -245,11 +245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -259,7 +259,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6gzpyzhau4"
+          "Value": "bpk8xqwxhs"
         },
         {
           "Name": "label",
@@ -267,13 +267,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -282,7 +282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -290,11 +290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -304,13 +304,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +355,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +392,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -437,7 +437,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:23:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -474,7 +474,7 @@
     },
     {
       "Route": "TravelAgency.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -495,7 +495,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:25:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -511,7 +511,7 @@
     },
     {
       "Route": "TravelAgency.styles.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -532,7 +532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:25:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -548,7 +548,7 @@
     },
     {
       "Route": "TravelAgency.y5oxpvfzep.bundle.scp.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelAgency.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -569,7 +569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:25:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -593,7 +593,7 @@
     },
     {
       "Route": "TravelAgency.y5oxpvfzep.styles.css",
-      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_Full-Stack-Development\\FSU600 - Blazor\\Lab2\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
+      "AssetFile": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TravelAgency.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -614,7 +614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:18:52 GMT"
+          "Value": "Wed, 04 Dec 2024 12:25:50 GMT"
         },
         {
           "Name": "Cache-Control",

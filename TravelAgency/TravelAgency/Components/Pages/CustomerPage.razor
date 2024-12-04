@@ -1,0 +1,59 @@
+﻿@page "/customers"
+@using TravelAgency.Repositories
+@inject CustomerRepository CustomerRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>Customers</h3>
+
+<button class="btn btn-success" @onclick="NavigateToAdd">Add New Customer</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>E-mail Address</th>
+            <th>Phone Number (Country Code Included)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Customers)
+        {
+            <tr>
+                <td>@customer.Name</td>
+                <td>@customer.Email</td>
+                <td>@customer.PhoneNumber</td>
+                <td>
+                    <button class="btn btn-warning" @onclick="() => NavigateToUpdate(customer.Id)">Update</button>
+                    <button class="btn btn-danger" @onclick="() => NavigateToDelete(customer.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code 
+{
+    private List<TravelAgency.Models.Customer> Customers = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Customers = await CustomerRepo.GetCustomersAsync();
+    }
+
+    private void NavigateToAdd()
+    {
+        GoTo.NavigateTo("/customers-add");
+    }
+
+    private void NavigateToUpdate(int id)
+    {
+        GoTo.NavigateTo($"/customers-update/{id}");
+    }
+
+    private void NavigateToDelete(int id)
+    {
+        GoTo.NavigateTo($"/customers-delete/{id}");
+    }
+}

@@ -30,5 +30,25 @@ namespace TravelAgency.Repositories
             context.Customers.Add(customer);
             await context.SaveChangesAsync();
         }
+
+        public async Task DeleteCustomerAsync(int id)
+        {
+            using var context = _contextFactory.CreateDbContext();
+
+            var customer = await context.Customers.FindAsync(id);
+            if (customer != null)
+            {
+                context.Customers.Remove(customer);
+                await context.SaveChangesAsync(true);
+            }
+        }
+
+        public async Task UpdateCustomerAsync(Customer customer)
+        {
+            using var context = _contextFactory.CreateDbContext();
+
+            context.Customers.Update(customer);
+            await context.SaveChangesAsync();
+        }
     }
 }

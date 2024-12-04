@@ -1,0 +1,44 @@
+﻿@page "/customers-add"
+@using TravelAgency.Repositories
+@inject CustomerRepository CustomerRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<h3>Add New Customer</h3>
+<div>
+    <form>
+        <div>
+            <label>Name:</label>
+            <input type="text" @bind="NewCustomer.Name" />
+        </div>
+        <div>
+            <label>E-mail Address:</label>
+            <input type="text" @bind="NewCustomer.Email" />
+        </div>
+        <div>
+            <label>Phone Number (Country Code Included):</label>
+            <input type="text" @bind="NewCustomer.PhoneNumber" />
+        </div>
+        <br />
+        <button type="button" @onclick="SubmitNewCustomer">Save</button>
+        <button type="button" @onclick="Cancel">Cancel</button>
+    </form>
+</div>
+
+@code 
+{
+    private TravelAgency.Models.Customer NewCustomer = new();
+
+    private async Task SubmitNewCustomer()
+    {
+        await CustomerRepo.AddCustomerAsync(NewCustomer);
+
+        GoTo.NavigateTo("/customers");
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/customers");
+    }
+
+}
