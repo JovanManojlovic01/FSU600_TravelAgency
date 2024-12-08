@@ -4,36 +4,44 @@
 @inject NavigationManager GoTo
 @rendermode InteractiveServer
 
-<h3>Update Destination</h3>
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-primary text-center">Update Destination</h1>
+    <p class="text-muted text-center">Modify the details of the selected destination.</p>
 
-@if (DestinationToUpdate == null)
-{
-    <p>Loading destination details...</p>
-}
-else
-{
-    <div>
-        <form>
-            <div>
-                <label>Name:</label>
-                <input type="text" @bind="DestinationToUpdate.Name" />
-            </div>
-            <div>
-                <label>Description:</label>
-                <input type="text" @bind="DestinationToUpdate.Description" />
-            </div>
-            <div>
-                <label>Price:</label>
-                <input type="number" @bind="DestinationToUpdate.Price" />
-            </div>
-            <br />
-            <button type="button" @onclick="SubmitUpdatedDestination">Save</button>
-            <button type="button" @onclick="Cancel">Cancel</button>
-        </form>
-    </div>
-}
+    @if (DestinationToUpdate == null)
+    {
+        <p class="text-center text-muted">Loading destination details...</p>
+    }
+    else
+    {
+        <div class="card shadow-sm p-4 mt-4">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Name:</label>
+                    <input type="text" class="form-control" @bind="DestinationToUpdate.Name" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Description:</label>
+                    <textarea class="form-control" rows="3" @bind="DestinationToUpdate.Description"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Price (€):</label>
+                    <input type="number" class="form-control" @bind="DestinationToUpdate.Price" />
+                </div>
+                <div class="d-flex justify-content-end mt-4">
+                    <button type="button" class="btn btn-success me-2" @onclick="SubmitUpdatedDestination">
+                        <i class="bi bi-save"></i> Save
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" @onclick="Cancel">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    }
+</div>
 
-@code 
+@code
 {
     [Parameter]
     public int Id { get; set; }
@@ -47,7 +55,7 @@ else
 
     private async Task SubmitUpdatedDestination()
     {
-        if(DestinationToUpdate != null)
+        if (DestinationToUpdate != null)
         {
             await DestinationRepo.UpdateDestinationAsync(DestinationToUpdate);
             GoTo.NavigateTo("/destinations");

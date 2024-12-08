@@ -6761,11 +6761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
+      "projectUniqueName": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_TravelAgency\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
       "projectName": "TravelAgency",
-      "projectPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
+      "projectPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_TravelAgency\\TravelAgency\\TravelAgency\\TravelAgency.csproj",
       "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jovan\\OneDrive\\Desktop\\FSU600_TravelAgency-main\\TravelAgency\\TravelAgency\\obj\\",
+      "outputPath": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_TravelAgency\\TravelAgency\\TravelAgency\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6780,6 +6780,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6796,7 +6797,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -6844,7 +6845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

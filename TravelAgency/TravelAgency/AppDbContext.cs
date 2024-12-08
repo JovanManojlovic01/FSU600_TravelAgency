@@ -24,7 +24,7 @@ namespace TravelAgency
             modelBuilder.Entity<Booking>()
                 .HasOne(b => b.Destination)
                 .WithMany(d => d.Bookings)
-                .HasForeignKey(b =>b.destinationID);
+                .HasForeignKey(b => b.destinationID);
         }
     }
 }

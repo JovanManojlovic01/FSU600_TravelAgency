@@ -5,7 +5,7 @@ namespace TravelAgency.Repositories
 {
     public class DestinationRepository
     {
-        private IDbContextFactory<AppDbContext> _contextFactory;
+        private readonly IDbContextFactory<AppDbContext> _contextFactory;
 
         public DestinationRepository(IDbContextFactory<AppDbContext> contextFactory)
         {
@@ -21,14 +21,23 @@ namespace TravelAgency.Repositories
         public async Task<Destination?> GetDestinationByIdAsync(int id)
         {
             using var context = _contextFactory.CreateDbContext();
-            return await context.Destinations.FindAsync(id);
+            return await context.Destinations.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
         }
 
         public async Task AddDestinationAsync(Destination destination)
         {
             using var context = _contextFactory.CreateDbContext();
+
             context.Destinations.Add(destination);
-            await context.SaveChangesAsync();
+            try
+            {
+                await context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding destination: {ex.Message}");
+                throw;
+            }
         }
 
         public async Task DeleteDestinationAsync(int id)
@@ -39,7 +48,15 @@ namespace TravelAgency.Repositories
             if (destination != null)
             {
                 context.Destinations.Remove(destination);
-                await context.SaveChangesAsync(true);
+                try
+                {
+                    await context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error deleting destination: {ex.Message}");
+                    throw;
+                }
             }
         }
 
@@ -48,8 +65,15 @@ namespace TravelAgency.Repositories
             using var context = _contextFactory.CreateDbContext();
 
             context.Destinations.Update(destination);
-
-            await context.SaveChangesAsync();
+            try
+            {
+                await context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating destination: {ex.Message}");
+                throw;
+            }
         }
     }
 }

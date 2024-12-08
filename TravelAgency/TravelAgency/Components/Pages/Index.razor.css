@@ -1,27 +1,26 @@
-/* _content/TravelAgency/Components/Pages/Index.razor.rz.scp.css */
-
-.bg-gradient-primary[b-wf5o5wl6iu] {
+﻿
+.bg-gradient-primary {
     background: linear-gradient(90deg, rgba(13,110,253,1) 0%, rgba(9,48,140,1) 100%);
 }
 
-.bg-gradient-success[b-wf5o5wl6iu] {
+.bg-gradient-success {
     background: linear-gradient(90deg, rgba(25,135,84,1) 0%, rgba(18,90,56,1) 100%);
 }
 
-.bg-gradient-warning[b-wf5o5wl6iu] {
+.bg-gradient-warning {
     background: linear-gradient(90deg, rgba(255,193,7,1) 0%, rgba(204,145,0,1) 100%);
 }
 
-.card-title[b-wf5o5wl6iu] {
+.card-title {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.card-text[b-wf5o5wl6iu] {
+.card-text {
     font-size: 1.5rem;
 }
 
-.table-hover tbody tr:hover[b-wf5o5wl6iu] {
+.table-hover tbody tr:hover {
     background-color: #f1f1f1;
 }
 

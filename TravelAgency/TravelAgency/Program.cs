@@ -14,13 +14,20 @@ namespace TravelAgency
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-            builder.Services.AddRazorComponents().AddInteractiveServerComponents();
             builder.Services.AddDbContextFactory<AppDbContext>(options => options.UseSqlite("Data Source = TravelAgency.db"));
             builder.Services.AddScoped<DestinationRepository>();
             builder.Services.AddScoped<CustomerRepository>();
             builder.Services.AddScoped<BookingRepository>();
 
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContextFactory = scope.ServiceProvider.GetRequiredService<IDbContextFactory<AppDbContext>>();
+                using var context = dbContextFactory.CreateDbContext();
+                context.Database.Migrate();
+            }
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -29,6 +36,7 @@ namespace TravelAgency
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
 
             app.UseHttpsRedirection();
 

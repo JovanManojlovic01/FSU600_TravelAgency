@@ -1,0 +1,60 @@
+﻿@page "/bookings-delete/{id:int}"
+@using TravelAgency.Repositories
+@inject BookingRepository BookingRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-danger text-center">Delete Booking</h1>
+    <p class="text-muted text-center">You are about to permanently delete this booking.</p>
+
+    @if (BookingToDelete == null)
+    {
+        <p class="text-center text-muted">Loading booking details...</p>
+    }
+    else
+    {
+        <div class="card shadow-sm p-4 mt-4 text-center">
+            <p class="fw-bold">Are you sure you want to delete this booking?</p>
+            <ul class="list-unstyled">
+                <li><strong>Customer:</strong> @BookingToDelete.Customer.Name (@BookingToDelete.Customer.Email)</li>
+                <li><strong>Destination:</strong> @BookingToDelete.Destination.Name (€@BookingToDelete.Destination.Price)</li>
+                <li><strong>Booking Time:</strong> @BookingToDelete.bookingTime.ToString("g")</li>
+            </ul>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-danger me-2" @onclick="ConfirmDelete">
+                    <i class="bi bi-trash-fill"></i> Delete
+                </button>
+                <button class="btn btn-outline-secondary" @onclick="Cancel">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+@code
+{
+    [Parameter]
+    public int Id { get; set; }
+    private TravelAgency.Models.Booking? BookingToDelete;
+
+    protected override async Task OnInitializedAsync()
+    {
+        BookingToDelete = await BookingRepo.GetBookingbyIdAsync(Id);
+    }
+
+    private async Task ConfirmDelete()
+    {
+        if (BookingToDelete != null)
+        {
+            await BookingRepo.DeleteBookingAsync(Id);
+            GoTo.NavigateTo("/bookings");
+        }
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/bookings");
+    }
+}

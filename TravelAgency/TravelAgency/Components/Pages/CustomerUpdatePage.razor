@@ -4,36 +4,44 @@
 @inject NavigationManager GoTo
 @rendermode InteractiveServer
 
-<h3>Update Customer Information</h3>
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-primary text-center">Update Customer Information</h1>
+    <p class="text-muted text-center">Edit the details of the selected customer below.</p>
 
-@if (CustomerToUpdate == null)
-{
-    <p>Loading Customer details...</p>
-}
-else
-{
-    <div>
-        <form>
-            <div>
-                <label>Name:</label>
-                <input type="text" @bind="CustomerToUpdate.Name" />
-            </div>
-            <div>
-                <label>E-mail Address:</label>
-                <input type="text" @bind="CustomerToUpdate.Email" />
-            </div>
-            <div>
-                <label>Phone Number (Country Code Included):</label>
-                <input type="text" @bind="CustomerToUpdate.PhoneNumber" />
-            </div>
-            <br />
-            <button type="button" @onclick="SubmitUpdatedCustomer">Save</button>
-            <button type="button" @onclick="Cancel">Cancel</button>
-        </form>
-    </div>
-}
+    @if (CustomerToUpdate == null)
+    {
+        <p class="text-center text-muted">Loading customer details...</p>
+    }
+    else
+    {
+        <div class="card shadow-sm p-4 mt-4">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Name:</label>
+                    <input type="text" class="form-control" @bind="CustomerToUpdate.Name" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">E-mail Address:</label>
+                    <input type="text" class="form-control" @bind="CustomerToUpdate.Email" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Phone Number (Country Code Included):</label>
+                    <input type="text" class="form-control" @bind="CustomerToUpdate.PhoneNumber" />
+                </div>
+                <div class="d-flex justify-content-end mt-4">
+                    <button type="button" class="btn btn-success me-2" @onclick="SubmitUpdatedCustomer">
+                        <i class="bi bi-save"></i> Save
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" @onclick="Cancel">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    }
+</div>
 
-@code 
+@code
 {
     [Parameter]
     public int Id { get; set; }

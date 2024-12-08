@@ -1,0 +1,85 @@
+﻿@page "/bookings-update/{id:int}"
+@using TravelAgency.Models
+@using TravelAgency.Repositories
+@inject BookingRepository BookingRepo
+@inject CustomerRepository CustomerRepo
+@inject DestinationRepository DestinationRepo
+@inject NavigationManager GoTo
+@rendermode InteractiveServer
+
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-primary text-center">Update Booking</h1>
+    <p class="text-muted text-center">Modify the details of the selected booking.</p>
+
+    @if (BookingToUpdate == null || Customers == null || Destinations == null)
+    {
+        <p class="text-center text-muted">Loading booking details...</p>
+    }
+    else
+    {
+        <div class="card shadow-sm p-4 mt-4">
+            <form>
+                <div class="mb-3">
+                    <label for="customer" class="form-label fw-bold">Select Customer:</label>
+                    <select id="customer" class="form-select" @bind="BookingToUpdate.customerID">
+                        @foreach (var customer in Customers)
+                        {
+                            <option value="@customer.Id" selected="@(BookingToUpdate.customerID == customer.Id)">@customer.Name (@customer.Email)</option>
+                        }
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="destination" class="form-label fw-bold">Select Destination:</label>
+                    <select id="destination" class="form-select" @bind="BookingToUpdate.destinationID">
+                        @foreach (var destination in Destinations)
+                        {
+                            <option value="@destination.Id" selected="@(BookingToUpdate.destinationID == destination.Id)">@destination.Name (€@destination.Price)</option>
+                        }
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="bookingTime" class="form-label fw-bold">Booking Date & Time:</label>
+                    <input type="datetime-local" id="bookingTime" class="form-control" @bind="BookingToUpdate.bookingTime" />
+                </div>
+                <div class="d-flex justify-content-end mt-4">
+                    <button type="button" class="btn btn-success me-2" @onclick="SubmitUpdate">
+                        <i class="bi bi-save"></i> Save
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" @onclick="Cancel">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    }
+</div>
+
+@code
+{
+    [Parameter]
+    public int Id { get; set; }
+    private Booking? BookingToUpdate;
+    private List<Customer> Customers = new();
+    private List<Destination> Destinations = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        BookingToUpdate = await BookingRepo.GetBookingbyIdAsync(Id);
+        Customers = await CustomerRepo.GetCustomersAsync();
+        Destinations = await DestinationRepo.GetDestinationsAsync();
+    }
+
+    private async Task SubmitUpdate()
+    {
+        if (BookingToUpdate != null)
+        {
+            await BookingRepo.UpdateBookingAsync(BookingToUpdate);
+            GoTo.NavigateTo("/bookings");
+        }
+    }
+
+    private void Cancel()
+    {
+        GoTo.NavigateTo("/bookings");
+    }
+}

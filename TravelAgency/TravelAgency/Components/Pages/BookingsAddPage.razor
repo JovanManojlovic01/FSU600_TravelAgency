@@ -1,47 +1,55 @@
 ﻿@page "/bookings-add"
-@using TravelAgency.Repositories
 @using TravelAgency.Models
+@using TravelAgency.Repositories
 @inject BookingRepository BookingRepo
 @inject CustomerRepository CustomerRepo
 @inject DestinationRepository DestinationRepo
 @inject NavigationManager GoTo
 @rendermode InteractiveServer
 
-<h3>Add New Booking</h3>
-<div>
-    <form>
-        <div>
-            <label for="customer">Select Customer:</label>
-            <select id="customer" @bind="SelectedCustomerId">
-                <option value="" disabled>Select a customer</option>
-                @foreach (var customer in Customers)
-                {
-                    <option value="@customer.Id">@customer.Name (@customer.Email)</option>
-                }
-            </select>
-        </div>
-        <div>
-            <label for="destination">Select Destination:</label>
-            <select id="destination" @bind="SelectedDestinationId">
-                <option value="" disabled>Select a destination</option>
-                @foreach (var destination in Destinations)
-                {
-                    <option value="@destination.Id">@destination.Name (€@destination.Price)</option>
-                }
-            </select>
-        </div>
-        <div>
-            <label for="bookingTime">Booking Date & Time:</label>
-            <input type="datetime-local" id="bookingTime" @bind="BookingTime" />
-        </div>
-        <br />
-        <button type="button" class="btn btn-success" @onclick="SubmitBooking">Create Booking</button>
-        <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
-    </form>
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-primary text-center">Add New Booking</h1>
+    <p class="text-muted text-center">Select a customer and destination to create a new booking.</p>
+
+    <div class="card shadow-sm p-4 mt-4">
+        <form>
+            <div class="mb-3">
+                <label for="customer" class="form-label fw-bold">Select Customer:</label>
+                <select id="customer" class="form-select" @bind="SelectedCustomerId">
+                    <option value="" disabled>Select a customer</option>
+                    @foreach (var customer in Customers)
+                    {
+                        <option value="@customer.Id">@customer.Name (@customer.Email)</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="destination" class="form-label fw-bold">Select Destination:</label>
+                <select id="destination" class="form-select" @bind="SelectedDestinationId">
+                    <option value="" disabled>Select a destination</option>
+                    @foreach (var destination in Destinations)
+                    {
+                        <option value="@destination.Id">@destination.Name (€@destination.Price)</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="bookingTime" class="form-label fw-bold">Booking Date & Time:</label>
+                <input type="datetime-local" id="bookingTime" class="form-control" @bind="BookingTime" />
+            </div>
+            <div class="d-flex justify-content-end mt-4">
+                <button type="button" class="btn btn-success me-2" @onclick="SubmitBooking">
+                    <i class="bi bi-save"></i> Create Booking
+                </button>
+                <button type="button" class="btn btn-outline-secondary" @onclick="Cancel">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
 </div>
 
-
-@code 
+@code
 {
     private List<Customer> Customers = new();
     private List<Destination> Destinations = new();
@@ -52,7 +60,6 @@
 
     protected override async Task OnInitializedAsync()
     {
-
         Customers = await CustomerRepo.GetCustomersAsync();
         Destinations = await DestinationRepo.GetDestinationsAsync();
     }
@@ -61,11 +68,9 @@
     {
         if (SelectedCustomerId == 0 || SelectedDestinationId == 0)
         {
-
             Console.WriteLine("Both customer and destination must be selected.");
             return;
         }
-
 
         var newBooking = new Booking
             {
@@ -74,10 +79,7 @@
                 bookingTime = BookingTime
             };
 
-
         await BookingRepo.AddBookingAsync(newBooking);
-
-
         GoTo.NavigateTo("/bookings");
     }
 

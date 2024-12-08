@@ -4,25 +4,35 @@
 @inject NavigationManager GoTo
 @rendermode InteractiveServer
 
-<h3>Delete Destination</h3>
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-danger text-center">Delete Destination</h1>
+    <p class="text-muted text-center">You are about to permanently delete this destination.</p>
 
-@if(DestinationToDelete == null)
-{
-    <p>Loading destination details...</p>
-}
-else
-{
-    <div>
-        <p>Are you sure you want to delete the destination:</p>
-        <p><strong>@DestinationToDelete.Name</strong>?</p>
-        <p>@DestinationToDelete.Description</p>
-        <p>Price: @DestinationToDelete.Price</p>
-        <button @onclick="ConfirmDelete">Delete</button>
-        <button @onclick="Cancel">Cancel</button>
-    </div>
-}
+    @if (DestinationToDelete == null)
+    {
+        <p class="text-center text-muted">Loading destination details...</p>
+    }
+    else
+    {
+        <div class="card shadow-sm p-4 mt-4 text-center">
+            <p class="fw-bold">Are you sure you want to delete the following destination?</p>
+            <h4 class="text-primary fw-bold">@DestinationToDelete.Name</h4>
+            <p class="text-muted">@DestinationToDelete.Description</p>
+            <p class="text-danger fw-bold">Price: €@DestinationToDelete.Price</p>
 
-@code 
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-danger me-2" @onclick="ConfirmDelete">
+                    <i class="bi bi-trash-fill"></i> Delete
+                </button>
+                <button class="btn btn-outline-secondary" @onclick="Cancel">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+@code
 {
     [Parameter]
     public int Id { get; set; }
@@ -35,7 +45,7 @@ else
 
     private async Task ConfirmDelete()
     {
-        if(DestinationToDelete != null)
+        if (DestinationToDelete != null)
         {
             await DestinationRepo.DeleteDestinationAsync(DestinationToDelete.Id);
             GoTo.NavigateTo("/destinations");

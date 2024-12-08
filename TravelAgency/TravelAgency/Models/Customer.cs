@@ -6,7 +6,7 @@
         public string Name { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public ICollection<Booking> Bookings { get; set; } = new List<Booking>(); 
+        public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
     }
 }
 // Defining relationship between the Customer and their booking

@@ -18,7 +18,7 @@ namespace TravelAgency.Repositories
             return await context.Customers.ToListAsync();
         }
 
-        public async Task<Customer?> GetCustomerByIdAsync (int id)
+        public async Task<Customer?> GetCustomerByIdAsync(int id)
         {
             using var context = _contextFactory.CreateDbContext();
             return await context.Customers.FindAsync(id);

@@ -4,38 +4,71 @@
 @inject NavigationManager GoTo
 @rendermode InteractiveServer
 
-<h3>BookingsPage</h3>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-<button class="btn btn-success" @onclick="NavigateToAdd">Add New Booking</button>
+<div class="container mt-5">
+    <h1 class="display-5 fw-bold text-primary text-center">Manage Bookings</h1>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Booking ID</th>
-            <th>Customer Name</th>
-            <th>Destination</th>
-            <th>Booking Time</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var booking in Bookings)
-        {
-            <tr>
-                <td>@booking.ID</td>
-                <td>@booking.Customer.Name</td>
-                <td>@booking.Destination.Name</td>
-                <td>@booking.bookingTime.ToString("g")</td>
-                <td>
-                    <button class="btn btn-warning" @onclick="() => NavigateToUpdate(booking.ID)">Update</button>
-                    <button class="btn btn-danger" @onclick="() => NavigateToDelete(booking.ID)">Delete</button>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="d-flex justify-content-between align-items-center my-4">
+        <h3 class="fw-bold text-secondary">Booking List</h3>
+        <button class="btn btn-success btn-lg shadow-sm" @onclick="NavigateToAdd">
+            <i class="bi bi-calendar-plus"></i> Add Booking
+        </button>
+    </div>
 
-@code 
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered align-middle shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>Booking ID</th>
+                    <th>Customer Name</th>
+                    <th>Destination</th>
+                    <th>Booking Time</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Bookings.Count == 0)
+                {
+                    <tr>
+                        <td colspan="5" class="text-center text-muted">
+                            <em>No bookings found. Please add a booking.</em>
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var booking in Bookings)
+                    {
+                        <tr>
+                            <td class="fw-bold">@booking.ID</td>
+                            <td>@booking.Customer.Name</td>
+                            <td>@booking.Destination.Name</td>
+                            <td>@booking.bookingTime.ToString("g")</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm shadow-sm me-2" @onclick="() => NavigateToUpdate(booking.ID)">
+                                    <i class="bi bi-pencil-fill"></i> Update
+                                </button>
+                                <button class="btn btn-danger btn-sm shadow-sm" @onclick="() => NavigateToDelete(booking.ID)">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-flex justify-content-end mt-4">
+        <button class="btn btn-outline-primary btn-lg shadow-sm" @onclick="NavigateToHome">
+            <i class="bi bi-house-door"></i> Back to Home
+        </button>
+    </div>
+</div>
+
+@code
 {
     private List<TravelAgency.Models.Booking> Bookings = new();
 
@@ -47,6 +80,11 @@
     private void NavigateToAdd()
     {
         GoTo.NavigateTo("/bookings-add");
+    }
+
+    private void NavigateToHome()
+    {
+        GoTo.NavigateTo("/");
     }
 
     private void NavigateToUpdate(int id)

@@ -36,5 +36,43 @@ namespace TravelAgency.Repositories
             context.Bookings.Add(booking);
             await context.SaveChangesAsync();
         }
+
+        public async Task DeleteBookingAsync(int id)
+        {
+            using var context = _contextFactory.CreateDbContext();
+
+            var booking = await context.Bookings
+                .Include(b => b.Customer)
+                .Include(b => b.Destination)
+                .FirstOrDefaultAsync(b => b.ID == id);
+
+            if (booking != null)
+            {
+                context.Bookings.Remove(booking);
+                await context.SaveChangesAsync();
+                Console.WriteLine($"Booking with ID {id} successfully deleted.");
+            }
+            else
+            {
+                Console.WriteLine($"Booking with ID {id} not found.");
+            }
+        }
+
+        public async Task UpdateBookingAsync(Booking booking)
+        {
+            using var context = _contextFactory.CreateDbContext();
+
+            var existingBooking = await context.Bookings
+                .FirstOrDefaultAsync(b => b.ID == booking.ID);
+
+            if (existingBooking != null)
+            {
+                existingBooking.customerID = booking.customerID;
+                existingBooking.destinationID = booking.destinationID;
+                existingBooking.bookingTime = booking.bookingTime;
+
+                await context.SaveChangesAsync();
+            }
+        }
     }
 }
