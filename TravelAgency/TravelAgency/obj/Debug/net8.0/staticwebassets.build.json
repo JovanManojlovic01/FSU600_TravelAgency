@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gLbEz6zpQb1fxB9hkkY+XOI8nA1Hm9lzU1mv6I5jUMk=",
+  "Hash": "7kWAzPNu1fEE94gKpovK5m5BK/2fTFc1DEfusqWeK5A=",
   "Source": "TravelAgency",
   "BasePath": "_content/TravelAgency",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "239gycvx41",
-      "Integrity": "AixMMjNAlneXvANskbai7k9rmbNimJjtENX6EyKukBQ=",
+      "Fingerprint": "9buj55uztl",
+      "Integrity": "NRn7w3d0mIBQldQeq0cUSFtFS5zzmEXr++QOIYp5y3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6gzpyzhau4",
-      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
@@ -145,7 +145,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.239gycvx41.css",
+      "Route": "app.9buj55uztl.css",
       "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_TravelAgency\\TravelAgency\\TravelAgency\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -155,7 +155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2593"
+          "Value": "2542"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +163,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AixMMjNAlneXvANskbai7k9rmbNimJjtENX6EyKukBQ=\""
+          "Value": "\"NRn7w3d0mIBQldQeq0cUSFtFS5zzmEXr++QOIYp5y3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:10:26 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,7 +177,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "239gycvx41"
+          "Value": "9buj55uztl"
         },
         {
           "Name": "label",
@@ -185,7 +185,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AixMMjNAlneXvANskbai7k9rmbNimJjtENX6EyKukBQ="
+          "Value": "sha256-NRn7w3d0mIBQldQeq0cUSFtFS5zzmEXr++QOIYp5y3c="
         }
       ]
     },
@@ -200,7 +200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2593"
+          "Value": "2542"
         },
         {
           "Name": "Content-Type",
@@ -208,11 +208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AixMMjNAlneXvANskbai7k9rmbNimJjtENX6EyKukBQ=\""
+          "Value": "\"NRn7w3d0mIBQldQeq0cUSFtFS5zzmEXr++QOIYp5y3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:10:26 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -222,12 +222,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AixMMjNAlneXvANskbai7k9rmbNimJjtENX6EyKukBQ="
+          "Value": "sha256-NRn7w3d0mIBQldQeq0cUSFtFS5zzmEXr++QOIYp5y3c="
         }
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
       "AssetFile": "C:\\Users\\jovan\\OneDrive\\Documents\\GitHub\\FSU600_TravelAgency\\TravelAgency\\TravelAgency\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -237,7 +237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -245,11 +245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -259,7 +259,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6gzpyzhau4"
+          "Value": "bpk8xqwxhs"
         },
         {
           "Name": "label",
@@ -267,7 +267,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
@@ -282,7 +282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162726"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -290,11 +290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -304,7 +304,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
         }
       ]
     },
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -376,7 +376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -413,7 +413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -458,7 +458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 13:37:36 GMT"
+          "Value": "Sun, 08 Dec 2024 18:29:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -495,7 +495,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:20:52 GMT"
+          "Value": "Sun, 08 Dec 2024 18:30:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -540,7 +540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:20:52 GMT"
+          "Value": "Sun, 08 Dec 2024 18:30:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -585,7 +585,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:20:52 GMT"
+          "Value": "Sun, 08 Dec 2024 18:30:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -622,7 +622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 19:20:52 GMT"
+          "Value": "Sun, 08 Dec 2024 18:30:31 GMT"
         },
         {
           "Name": "Cache-Control",

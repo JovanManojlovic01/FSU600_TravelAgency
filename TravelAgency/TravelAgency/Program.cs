@@ -21,14 +21,6 @@ namespace TravelAgency
 
             var app = builder.Build();
 
-            using (var scope = app.Services.CreateScope())
-            {
-                var dbContextFactory = scope.ServiceProvider.GetRequiredService<IDbContextFactory<AppDbContext>>();
-                using var context = dbContextFactory.CreateDbContext();
-                context.Database.Migrate();
-            }
-
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
